@@ -9,7 +9,7 @@ import sys, getopt
 
 # *** CHANGE THIS FOR DIFFERENT USERNAME ***
 # ******************************************
-PROPERTIES = [ "name", "language", "html_url", "contributors_url", "created_at", "updated_at", "forks", "open_issues_count"]
+PROPERTIES = [ "name", "language", "description", "html_url", "contributors_url", "created_at", "updated_at", "forks", "open_issues_count", "watchers"]
 
 
 def get_repo_count(username):
